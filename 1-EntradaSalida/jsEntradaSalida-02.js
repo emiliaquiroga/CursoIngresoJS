@@ -1,8 +1,9 @@
-/*
-Debemos lograr tomar un nombre con 'prompt' 
-y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
+//Quiroga María Emilia - DIV Z - Grupo 1 - Ejercicio 2
+
 function mostrar()
 {
-	alert("ok");
+	let nombreIngresado;
+	nombreIngresado = prompt("Ingrese su nombre"); 
+	alert ("Ud se llama" + nombreIngresado); 
 }
 

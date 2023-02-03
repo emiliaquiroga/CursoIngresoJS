@@ -1,8 +1,12 @@
-/*
-Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
-ej.: "Usted se llama José y tiene 66 años" 	*/
+//Quiroga María Emilia - DIV Z - Grupo 1 - Ejercicio 5
 function mostrar()
 {	
-	alert("ok");
+	let nombreIngresado;
+	let edadIngresada;
+	
+	nombre = document.getElementById("txtIdNombre").value;
+	edad = document.getElementById("txtIdEdad").value;
+	
+	alert("Usted se llama "+ nombreIngresado + " y tiene " + edadIngresada + " años"); 
 }
 

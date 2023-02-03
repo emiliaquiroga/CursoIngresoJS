@@ -1,6 +1,14 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
+	edad = parseInt(document.getElementById("txtIdEdad").value);
+	if( edad >=18){
+		alert("La condición es verdadera");
+		}
 
-}//FIN DE LA FUNCIÓN
+	else {
+		alert("La condición es falsa");
+	}
+
+	alert("estoy despues del if else");
+}

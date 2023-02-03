@@ -1,8 +1,7 @@
-/*
-Al presionar el  botón, 
-se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
+//Quiroga María Emilia - DIV Z - Grupo 1 - Ejercicio 1
 function mostrar()
 {
-	alert("Hola bebe");
+	alert("Esto funciona de Maravilla");
+	alert("Hola Mundo");
 }
 
